@@ -1,0 +1,32 @@
+# Returned to kitty factory default — custom theme disabled
+# include ./dark-theme.auto.conf
+
+
+# Fonts
+font_family      FiraCode Nerd Font Mono
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+
+# Optional
+font_size 14.0
+disable_ligatures never
+map f11 toggle_fullscreen
+map ctrl+c copy_and_clear_or_interrupt
+map ctrl+v paste_from_clipboard
+map ctrl+t launch --cwd current --type tab
+map ctrl+q close_window
+map ctrl+w close_tab
+
+# #Settings for Hyperland 
+# # appearence 
+remember_window_size no
+# background_opacity 0.8
+# window_padding_width 8 
+#
+# # scroll wheel 
+scrollbar_handle_opacity 0.5
+scrollbar_track_opacity 0.5
+scrollbar_track_hover_opacity 0.5
+confirm_os_window_close 0
+sync_to_monitor no
